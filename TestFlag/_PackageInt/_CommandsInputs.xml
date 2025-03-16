@@ -1,0 +1,8 @@
+<CommandsInputs>
+	<File Path="C:\Users\feder\OneDrive\Desktop\cec project\hai-teaming-project\TestFlag\PackageDefinitions\cecgt-testflag\ContentInfo\Thumbnail.jpg" Failure="0">
+		<Package Name="cecgt-testflag" Failure="0">
+			<AssetGroup Name="ContentInfo"/>
+		</Package>
+	</File>
+</CommandsInputs>
+

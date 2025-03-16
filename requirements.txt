@@ -1,0 +1,2 @@
+python == 3.13.2
+SimConnect == 0.24.3

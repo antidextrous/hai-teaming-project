@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>KATL to KPDK</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>5000.000</CruisingAlt>
+        <DepartureID>KATL</DepartureID>
+        <DepartureLLA>N33° 52' 34.00",W84° 18' 5.00",+000998.00</DepartureLLA>
+        <DestinationID>KPDK</DestinationID>
+        <DestinationLLA>N33° 52' 34.00",W84° 18' 5.00",+000998.00</DestinationLLA>
+        <Descr>KATL, KPDK</Descr>
+        <DeparturePosition>1</DeparturePosition>
+        <DepartureName>Hartsfield-Jackson Atlanta International</DepartureName>
+        <DestinationName>DeKalb-Peachtree</DestinationName>
+        <AlternateName>AlternateName</AlternateName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="KATL">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N33° 52' 34.00",W84° 18' 5.00",+005000.00</WorldPosition>
+            <SpeedMaxFP>200</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>KATL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KPDK">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N33° 52' 34.00",W84° 18' 5.00",+005000.00</WorldPosition>
+            <SpeedMaxFP>200</SpeedMaxFP>
+            <RunwayNumberFP>1</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>KPDK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+       <FlightPlan.FlightPlan>
+        <Title>KDCA to KJFK</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1000.000</CruisingAlt>
+        <DepartureID>KDCA</DepartureID>
+        <DepartureLLA>N38° 50' 30.61",W77° 2' 12.41",+000012.00</DepartureLLA>
+        <DestinationID>KJFK</DestinationID>
+        <DestinationLLA>N40° 38' 28.93",W73° 46' 39.62",+000012.00</DestinationLLA>
+        <Descr>KDCA, KJFK</Descr>
+        <DeparturePosition>1</DeparturePosition>
+        <DepartureName>DepartureName</DepartureName>
+        <DestinationName>DestinationName</DestinationName>
+        <AlternateName>AlternateName</AlternateName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="KDCA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 51' 5.19",W77° 2' 15.79",+000012.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>1</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>KDCA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="POI1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 11' 1.82",W76° 34' 14.77",+007000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="POI2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 44' 38.96",W75° 29' 51.16",+007000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="KPNE">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N40° 4' 54.98",W75° 0' 38.07",+007000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>6</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>KPNE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="POI3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 31' 39.95",W73° 58' 59.93",+003837.98</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="KJFK">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N40° 38' 28.93",W73° 46' 39.62",+000012.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>KJFK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

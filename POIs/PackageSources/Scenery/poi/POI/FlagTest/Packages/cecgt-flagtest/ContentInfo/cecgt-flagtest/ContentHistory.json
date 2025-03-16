@@ -1,0 +1,10 @@
+{
+  "package-name": "cecgt-flagtest",
+  "items": [
+    {
+      "type": "Poi",
+      "content": "{B1EDB3A6-3993-47AC-A203-F467B6D5A44B}",
+      "revision": 1
+    }
+  ]
+}

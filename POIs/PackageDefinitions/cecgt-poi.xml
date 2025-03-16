@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetPackage Version="0.1.0">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>poi</Title>
+		<Manufacturer/>
+		<Creator>dfeder</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\cecgt-poi\ContentInfo</AssetDir>
+			<OutputDir>ContentInfo\cecgt-poi</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="POI">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Scenery\poi\POI\</AssetDir>
+			<OutputDir>Scenery\poi\POI\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+

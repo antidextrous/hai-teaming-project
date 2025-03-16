@@ -1,0 +1,13 @@
+<CommandsInputs>
+	<File Path="C:\Users\feder\OneDrive\Desktop\cec project\hai-teaming-project\POIs\PackageSources\Scenery\poi\POI\FlagTest\PackageDefinitions\cecgt-flagtest\ContentInfo\Thumbnail.jpg" Failure="0">
+		<Package Name="cecgt-flagtest" Failure="0">
+			<AssetGroup Name="ContentInfo"/>
+		</Package>
+	</File>
+	<File Path="C:\Users\feder\OneDrive\Desktop\cec project\hai-teaming-project\POIs\PackageSources\Scenery\poi\POI\FlagTest\PackageSources\Scenery\flagtest\POI\TestFlag.xml" Failure="0">
+		<Package Name="cecgt-flagtest" Failure="0">
+			<AssetGroup Name="POI"/>
+		</Package>
+	</File>
+</CommandsInputs>
+

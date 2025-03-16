@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>KPDK, KJAX</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>KPDK to KJAX</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>5000.000</CruisingAlt>
+        <DepartureID>KPDK</DepartureID>
+        <DepartureLLA>N33° 52' 34.00",W84° 18' 5.00",+005000.00</DepartureLLA>
+        <DestinationID>KJAX</DestinationID>
+        <DestinationLLA>N30° 29' 32.00",W81° 41' 15.00",+005000.00</DestinationLLA>
+        <Descr>KPDK, KJAX</Descr>
+        <DeparturePosition>1</DeparturePosition>
+        <DepartureName>DeKalb-Peachtree</DepartureName>
+        <DestinationName>Jacksonville International</DestinationName>
+        <AlternateName>AlternateName</AlternateName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="KPDK">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N33° 52' 34.00",W84° 18' 5.00",+005000.00</WorldPosition>
+            <SpeedMaxFP>200</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>KPDK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KJAX">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N30° 29' 32.00",W81° 41' 15.00",+005000.00</WorldPosition>
+            <SpeedMaxFP>200</SpeedMaxFP>
+            <RunwayNumberFP>1</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>KJAX</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

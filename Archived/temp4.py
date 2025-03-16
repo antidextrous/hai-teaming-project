@@ -5,7 +5,7 @@ import keyboard
 from SimConnect import SimConnect, AircraftRequests, AircraftEvents
 from SimConnect.Attributes import SimConnectDll, SIMCONNECT_DATA_INITPOSITION
 import ctypes
-import math
+
 
 sm = SimConnect()
 smdll = SimConnectDll(r"C:\MSFS SDK\SimConnect SDK\lib\SimConnect.dll")
@@ -88,21 +88,7 @@ def spawn_agent():
     time.sleep(10)
     smdll.AISetAircraftFlightPlan(sm_handle, 1, flight_plan_c2,2)
     
-def atFlag(lat, lon):
-    # Coordinates for KATL
-    katl_lat = 33.6367
-    katl_lon = -84.4281
 
-    # Calculate the distance using the Haversine formula
-    radius = 3959  # Radius of the Earth in miles
-
-    dlat = math.radians(lat - katl_lat)
-    dlon = math.radians(lon - katl_lon)
-    a = math.sin(dlat / 2) ** 2 + math.cos(math.radians(katl_lat)) * math.cos(math.radians(lat)) * math.sin(dlon / 2) ** 2
-    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
-    distance = radius * c
-
-    return distance <= 2
 if __name__ == "__main__":
     spawn_player()
     spawn_agent()
@@ -114,11 +100,6 @@ if __name__ == "__main__":
             altitude = aq.get('PLANE_ALTITUDE')
             call_logger(altitude)
             time_counter=0
-        player_lat = aq.get('PLANE_LATITUDE')
-        player_lon = aq.get('PLANE_LONGITUDE')
-        if atFlag(player_lat, player_lon):
-            print("Player wins")
-            break
         if keyboard.is_pressed('/'):
             unpause_game(ae)
         if keyboard.is_pressed('['):
@@ -127,5 +108,4 @@ if __name__ == "__main__":
         time.sleep(.1)
         time_counter+=1
         
-#setup visual for flags, look into ai aircraft controlling with waypoints, see whether you can dynamically change the flight plan of ai aircraft, and documentation
-#do same thing in xplane and compile rl projects from github, with a focus on exploring different ways of controlling an ai aircraft (like spawning as an npc with waypoints, or heading speed altitude, are there open source full controllers)
+#setup visual for flags, look into ai aircraft controlling with waypoints, see whether you can dynamically change the flight plan of ai aircraft, test out capture the flag demo, and documentation 

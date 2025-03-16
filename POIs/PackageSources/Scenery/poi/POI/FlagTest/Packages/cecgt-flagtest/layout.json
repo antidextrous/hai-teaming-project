@@ -1,0 +1,19 @@
+{
+  "content": [
+    {
+      "path": "ContentInfo/cecgt-flagtest/ContentHistory.json",
+      "size": 168,
+      "date": 133862384099277051
+    },
+    {
+      "path": "ContentInfo/cecgt-flagtest/Thumbnail.jpg",
+      "size": 5446,
+      "date": 133622485385188155
+    },
+    {
+      "path": "Scenery/flagtest/POI/TestFlag.bgl",
+      "size": 176,
+      "date": 133862384099215533
+    }
+  ]
+}
